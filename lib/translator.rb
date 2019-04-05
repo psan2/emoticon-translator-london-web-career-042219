@@ -9,7 +9,7 @@ def load_library(file_path)
 
   file.each do |meaning, faces|
     faces.each do |emoji|
-      binding.pry
+      get_meaning[meaning] = emoji
     end
   end
 end
