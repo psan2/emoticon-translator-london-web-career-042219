@@ -8,7 +8,9 @@ def load_library(file_path)
   get_emoticon = {}
 
   file.each do |meaning, faces|
-    binding.pry
+    faces.each do |emoji|
+      binding.pry
+    end
   end
 end
 
