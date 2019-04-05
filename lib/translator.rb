@@ -20,7 +20,6 @@ end #method
 
 def get_japanese_emoticon(file_path, emoticon)
   dictionary = load_library(file_path)
-  binding.pry
   if dictionary[get_emoticon].keys.include?(emoticon)
     return dictionary[get_emoticon][emoticon]
   else
