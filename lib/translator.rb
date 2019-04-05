@@ -12,7 +12,8 @@ def load_library(file_path)
       get_meaning[emoji] = meaning
     end #faces.each
   end #file.each
-emoticons.update(get_meaning)
+  emoticons.update(get_meaning)
+  emoticons.update(get_emoticon)
 end #method
 
 def get_japanese_emoticon
