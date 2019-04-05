@@ -12,6 +12,7 @@ def load_library(file_path)
       get_meaning[meaning] = emoji
     end #faces.each
   end #file.each
+  binding.pry
 end #method
 
 def get_japanese_emoticon
