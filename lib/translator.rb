@@ -14,6 +14,7 @@ def load_library(file_path)
   end #file.each
   emoticons["get_meaning"] = get_meaning
   emoticons["get_emoticon"] = get_emoticon
+  emoticons
 end #method
 
 def get_japanese_emoticon
