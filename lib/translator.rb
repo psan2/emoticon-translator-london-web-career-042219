@@ -12,6 +12,7 @@ def load_library(file_path)
       get_meaning[emoji] = meaning
     end #faces.each
     get_emoticon[faces[0]] = faces[1]
+    binding.pry
   end #file.each
   emoticons["get_meaning"] = get_meaning
   emoticons["get_emoticon"] = get_emoticon
